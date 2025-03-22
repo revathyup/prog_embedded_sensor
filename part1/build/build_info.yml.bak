@@ -1,0 +1,4 @@
+west:
+  command: C:\Users\upill\zephyrproject\.venv\Scripts\west build -b rpi_pico
+  topdir: C:\Users\upill\zephyrproject
+  version: 1.3.0

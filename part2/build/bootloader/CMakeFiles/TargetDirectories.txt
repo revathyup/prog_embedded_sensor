@@ -1,0 +1,3 @@
+C:/Users/upill/zephyrproject/lab3_sensors_template/lab3_sensors_template-main/part2/build/bootloader/CMakeFiles/boot_stage2.dir
+C:/Users/upill/zephyrproject/lab3_sensors_template/lab3_sensors_template-main/part2/build/bootloader/CMakeFiles/edit_cache.dir
+C:/Users/upill/zephyrproject/lab3_sensors_template/lab3_sensors_template-main/part2/build/bootloader/CMakeFiles/rebuild_cache.dir

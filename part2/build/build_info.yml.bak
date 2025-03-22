@@ -1,0 +1,54 @@
+cmake:
+  application:
+    configuration-dir: C:/Users/upill/zephyrproject/lab3_sensors_template/lab3_sensors_template-main/part2
+    source-dir: C:/Users/upill/zephyrproject/lab3_sensors_template/lab3_sensors_template-main/part2
+  board:
+    name: rpi_pico
+    qualifiers: rp2040
+    revision: 
+  devicetree:
+    bindings-dirs:
+     - C:/Users/upill/zephyrproject/zephyr/dts/bindings
+    files:
+     - C:/Users/upill/zephyrproject/zephyr/boards/raspberrypi/rpi_pico/rpi_pico.dts
+     - C:/Users/upill/zephyrproject/lab3_sensors_template/lab3_sensors_template-main/part2/rpi_pico.overlay
+    include-dirs:
+     - C:/Users/upill/zephyrproject/modules/hal/atmel/include
+     - C:/Users/upill/zephyrproject/modules/hal/gigadevice/include
+     - C:/Users/upill/zephyrproject/modules/hal/microchip/include
+     - C:/Users/upill/zephyrproject/modules/hal/microchip/dts
+     - C:/Users/upill/zephyrproject/modules/hal/nuvoton/dts
+     - C:/Users/upill/zephyrproject/modules/hal/nxp/dts
+     - C:/Users/upill/zephyrproject/modules/hal/stm32/dts
+     - C:/Users/upill/zephyrproject/zephyr/include
+     - C:/Users/upill/zephyrproject/zephyr/include/zephyr
+     - C:/Users/upill/zephyrproject/zephyr/dts/common
+     - C:/Users/upill/zephyrproject/zephyr/dts/x86
+     - C:/Users/upill/zephyrproject/zephyr/dts/xtensa
+     - C:/Users/upill/zephyrproject/zephyr/dts/sparc
+     - C:/Users/upill/zephyrproject/zephyr/dts/riscv
+     - C:/Users/upill/zephyrproject/zephyr/dts/posix
+     - C:/Users/upill/zephyrproject/zephyr/dts/nios2
+     - C:/Users/upill/zephyrproject/zephyr/dts/arm64
+     - C:/Users/upill/zephyrproject/zephyr/dts/arm
+     - C:/Users/upill/zephyrproject/zephyr/dts/arc
+     - C:/Users/upill/zephyrproject/zephyr/dts
+    user-files:
+     - C:/Users/upill/zephyrproject/lab3_sensors_template/lab3_sensors_template-main/part2/rpi_pico.overlay
+  kconfig:
+    files:
+     - C:/Users/upill/zephyrproject/zephyr/boards/raspberrypi/rpi_pico/rpi_pico_defconfig
+     - C:/Users/upill/zephyrproject/lab3_sensors_template/lab3_sensors_template-main/part2/prj.conf
+    user-files:
+     - C:/Users/upill/zephyrproject/lab3_sensors_template/lab3_sensors_template-main/part2/prj.conf
+  toolchain:
+    name: zephyr
+    path: C:/Users/upill/zephyr-sdk-0.17.0
+  zephyr:
+    version: 4.0.99
+    zephyr-base: C:/Users/upill/zephyrproject/zephyr
+version: 0.1.0
+west:
+  command: C:\Users\upill\zephyrproject\.venv\Scripts\west build -p -b rpi_pico
+  topdir: C:\Users\upill\zephyrproject
+  version: 1.3.0
